@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GPU">
+      <UniqueIdentifier>{eee05251-4e1b-418d-8ae0-b990ca8c948d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\ShaderEngine">
+      <UniqueIdentifier>{ac3da59f-f4ac-4399-b490-4cca5d1c923e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GPU\ShaderEngine\mtbuf.cpp">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\ShaderEngine\shader.cpp">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\ShaderEngine\vop1.cpp">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\ShaderEngine\descriptor.cpp">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\gpu_regs.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\image.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\memory.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\PA.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\rasterizer.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\rop.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\fixed.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="GPU\gpu.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPU\ShaderEngine\mtbuf.h">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\ShaderEngine\shader.h">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\ShaderEngine\vop1.h">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\ShaderEngine\descriptor.h">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\ShaderEngine\gpu_isa.h">
+      <Filter>GPU\ShaderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\gpu.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\gpu_regs.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\helpers.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\image.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\memory.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\PA.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\rasterizer.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\rop.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\assert.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="GPU\fixed.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
